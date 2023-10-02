@@ -7,3 +7,6 @@ layout: default
 Hello
 ## Test
 How are you 123
+## Publications
+- CNSNS
+- Chaos
