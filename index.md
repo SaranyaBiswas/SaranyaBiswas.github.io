@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Saranya Biswas"
 permalink: /
 layout: default
 ---
@@ -51,19 +51,16 @@ layout: default
 
 <img style="float: left; padding-right: 15px; padding-bottom: 1px;" src="img/dp.jpeg" alt="dp" width="185"/>
 
-# Saranya Biswas
-
 
 I am a Ph.D scholar at the [Department of Applied Mechanics and Biomedical Engineering](https://apm.iitm.ac.in/home), Indian Institute of Technology Madras IIT-M), Chennai. I work with [Dr. Sayan Gupta](https://home.iitm.ac.in/sayan/). My interests are in the area of *nonlinear dynamics* and *stochastic processes*. I am also quite interested in modelling and system identification of *climate dynamics*.
 
-I currently stay on campus at IIT Madras, while my native place is back in the town of [Kolkata](https://en.wikipedia.org/wiki/Kolkata_West_Bengal), West Bengal. Apart from my academic interests, I am passionate about playing different kinds of stringed instruments, trainspotting, numismatics, literature and philosophy. (check out my [<i class="fa fa-instagram fa-lg"></i>] and [<i class="fa fa-youtube fa-lg"></i>]).
-
+I currently stay on campus at IIT Madras, while my native place is back in the town of [Kolkata](https://en.wikipedia.org/wiki/Kolkata_West_Bengal), West Bengal. Apart from my academic interests, I am passionate about playing different kinds of stringed instruments, trainspotting, numismatics, literature and philosophy.
 ### Academics
 
 | Year | Details |
 | --- | --- |
 | 2016 - now | MS-PhD in Applied Mechanics, IIT Madras. <img style="float: right;" src="img/iitm.png" alt="dp" width="50" height="50"/> |
-| 2012 - 2016 | B.E. in Mechanical Engineering (1st Class Hons.), Jadavpur University. <img style="float: right;" src="img/sxc.svg" alt="dp" width="50" height="60"/>|
+| 2012 - 2016 | B.E. in Mechanical Engineering (1st Class Hons.), Jadavpur University. <img style="float: right;" src="img/ju.png" alt="dp" width="60" height="60"/>|
 
 > <div align="center"> <p> My CV is available <a href="https://drive.google.com/file/d/1pDmqyZtTw7QiOCLzVDtpZioT9_SFtdWR/view?usp=sharing)">here</a>.</p></div>
 
