@@ -51,9 +51,8 @@ layout: default
 
 <img style="float: left; padding-right: 15px; padding-bottom: 1px;" src="img/dp.jpeg" alt="dp" width="185"/>
 
-#Saranya Biswas
+# Saranya Biswas
 
-### Hey!
 
 I am a Ph.D scholar at the [Department of Applied Mechanics and Biomedical Engineering](https://apm.iitm.ac.in/home), Indian Institute of Technology Madras IIT-M), Chennai. I work with [Dr. Sayan Gupta](https://home.iitm.ac.in/sayan/). My interests are in the area of *nonlinear dynamics* and *stochastic processes*. I am also quite interested in modelling and system identification of *climate dynamics*.
 
