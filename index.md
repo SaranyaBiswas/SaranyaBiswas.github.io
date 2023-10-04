@@ -62,7 +62,7 @@ I currently stay on campus at IIT Madras, while my native place is back in the t
 | 2016 - now | MS-PhD in Applied Mechanics, IIT Madras. <img style="float: right;" src="img/iitm.png" alt="dp" width="50" height="50"/> |
 | 2012 - 2016 | B.E. in Mechanical Engineering (1st Class Hons.), Jadavpur University. <img style="float: right;" src="img/ju.png" alt="dp" width="60" height="60"/>|
 
-> <div align="center"> <p> My CV is available <a href="https://drive.google.com/file/d/1pDmqyZtTw7QiOCLzVDtpZioT9_SFtdWR/view?usp=sharing)">here</a>.</p></div>
+> <div align="center"> <p> My CV is available <a href="https://apm.iitm.ac.in/home">here</a>.</p></div>
 
 ### You can find me at ...
 
