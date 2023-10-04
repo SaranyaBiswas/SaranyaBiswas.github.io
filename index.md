@@ -74,7 +74,7 @@ I currently stay on campus at IIT Madras, while my native place is back in the t
 
 ***Email IDs.*** biswas.saranya@gmail.com (personal email); am16d401@smail.iitm.ac.in (IITM - work emails).
 
-***Office Address.*** MSB 108 *"Uncertainty Lab"*, Mechanical Sciences Block, Indian Institute of Technology Madras, Chennai 600036.
+***Office Address.*** [*The Uncertainty Lab*](https://home.iitm.ac.in/sayan/page3.html), MSB 108, Mechanical Sciences Block, Indian Institute of Technology Madras, Chennai 600036.
 
 [<i class="fa fa-google fa-lg"></i>-scholar]: https://scholar.google.com/citations?user=Ib3KqyIAAAAJ&hl=en
 
