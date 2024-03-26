@@ -52,9 +52,9 @@ layout: default
 <img style="float: left; padding-right: 15px; padding-bottom: 1px;" src="img/3333.jpeg" alt="dp" width="185"/>
 
 
-I am a Ph.D scholar at the [Department of Applied Mechanics and Biomedical Engineering](https://apm.iitm.ac.in/home), Indian Institute of Technology Madras IIT-M), Chennai. I work with [Dr. Sayan Gupta](https://home.iitm.ac.in/sayan/). My interests are in the area of *nonlinear dynamics* and *stochastic processes*. I am also quite interested in modelling and system identification of *climate dynamics*.
+I am a Ph.D scholar at the [Department of Applied Mechanics and Biomedical Engineering](https://apm.iitm.ac.in/home), Indian Institute of Technology Madras IIT-M), Chennai. I worked with [Dr. Sayan Gupta](https://home.iitm.ac.in/sayan/). My interests are in the area of *nonlinear dynamics* and *stochastic processes*. I am also quite interested in modelling and system identification of *climate dynamics*.
 
-I currently stay on campus at IIT Madras, while my native place is back in the town of [Kolkata](https://en.wikipedia.org/wiki/Kolkata_West_Bengal), West Bengal. 
+I am from [Kolkata](https://en.wikipedia.org/wiki/Kolkata_West_Bengal), West Bengal. 
 Apart from my academic interests, I am passionate about playing different kinds of stringed instruments, trainspotting, numismatics, literature and philosophy.
 ### Academics
 
@@ -63,7 +63,7 @@ Apart from my academic interests, I am passionate about playing different kinds 
 | 2016 - 2024 | MS-PhD in Applied Mechanics, IIT Madras. <img style="float: right;" src="img/iitm.png" alt="dp" width="50" height="50"/> |
 | 2012 - 2016 | B.E. in Mechanical Engineering (1st Class Hons.), Jadavpur University. <img style="float: right;" src="img/ju.png" alt="dp" width="60" height="60"/>|
 
-> <div align="center"> <p> My CV is available <a href="https://apm.iitm.ac.in/home">here</a>.</p></div>
+> <div align="center"> <p> My CV is available <a href="https://drive.google.com/file/d/1iRbtLjUHXeVF615FgqBPNvqUw1nXivuW/view?usp=drive_link">here</a>.</p></div>
 
 ### You can find me at ...
 
@@ -73,7 +73,7 @@ Apart from my academic interests, I am passionate about playing different kinds 
 
 ***Links.*** [<i class="fa fa-google fa-lg"></i>-scholar], [<i class="fa fa-git fa-lg"></i>hub], [Linked<i class="fa fa-linkedin fa-lg"></i>] and [<i class="fa fa-facebook-f fa-lg"></i>acebook].
 
-***Email IDs.*** biswas.saranya@gmail.com (personal email); am16d401@smail.iitm.ac.in (IITM - work emails).
+***Email IDs.*** biswas.saranya@gmail.com (personal email).
 
 ***Office Address.*** [*The Uncertainty Lab*](https://home.iitm.ac.in/sayan/page3.html), MSB 108, Mechanical Sciences Block, Indian Institute of Technology Madras, Chennai 600036.
 
