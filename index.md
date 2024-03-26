@@ -47,9 +47,9 @@ layout: default
 </div>
 <br>
 
-> <div align="center"> <p> "I have no special talent. I am only passionately curious." - Albert Einstein </p> </div>
+> <div align="center"> <p> "Study hard what interests you the most in the most undisciplined, irreverent and original manner possible." - Richard Feynmann </p> </div>
 
-<img style="float: left; padding-right: 15px; padding-bottom: 1px;" src="img/3333.jpeg" alt="dp" width="185"/>
+<img style="float: left; padding-right: 15px; padding-bottom: 1px;" src="img/dp3333.jpeg" alt="dp" width="185"/>
 
 
 I am a Ph.D scholar at the [Department of Applied Mechanics and Biomedical Engineering](https://apm.iitm.ac.in/home), Indian Institute of Technology Madras IIT-M), Chennai. I worked with [Dr. Sayan Gupta](https://home.iitm.ac.in/sayan/). My interests are in the area of *nonlinear dynamics* and *stochastic processes*. I am also quite interested in modelling and system identification of *climate dynamics*.
