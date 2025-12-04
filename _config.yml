@@ -1,1 +1,30 @@
-theme: jekyll-theme-modernist
+title: "Dr. Saranya Biswas"
+email: biswas.saranya@gmail.com
+description: "Researcher in Nonlinear & Stochastic Dynamics"
+url: "https://saranyabiswas.github.io"
+theme: null
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+header_pages:
+  - index.md
+  - about.md
+  - research.md
+  - publications.md
+  - teaching.md
+  - contact.md
+
+author:
+  name: "Dr. Saranya Biswas"
+  avatar: "/img/profile.jpg"
+  bio: "Nonlinear & Stochastic Dynamics | IIT Madras | IIT Kanpur"
+
+sass:
+  style: compressed
