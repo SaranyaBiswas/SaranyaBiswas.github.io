@@ -9,8 +9,6 @@ layout: default
 ### Assistant Professor & Researcher  
 **Nonlinear Stochastic Dynamics • Applied Mechanics • Complex Systems**
 
----
-
 <div class="card">
 I am a researcher and academic working in nonlinear stochastic dynamics, noise-driven systems, and complex mechanical behavior.  
 I completed my **MS–PhD in Applied Mechanics at IIT Madras** and a **Postdoctoral Fellowship at IIT Kanpur**.  
