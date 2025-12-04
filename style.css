@@ -237,3 +237,164 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+
+/* ----------- Mobile Polish & Responsive Enhancements ----------- */
+@media (max-width: 768px) {
+
+    /* Container adjustments */
+    .container {
+        width: 92%;
+        padding: 20px 0;
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 22px;
+        gap: 20px;
+        animation: fadeIn 1.2s ease-in;
+    }
+
+    .hero img {
+        width: 135px;
+        height: 135px;
+        margin-bottom: 12px;
+        transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text h2 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Cards */
+    .card {
+        padding: 20px;
+        margin: 18px 0;
+        font-size: 15px;
+        border-radius: 10px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    /* Navbar adjustments */
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+        display: none; /* hidden initially, toggled with burger */
+        background: #fff;
+        position: absolute;
+        top: 65px;
+        right: 0;
+        width: 90%;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+
+    .nav-links.show {
+        display: flex;
+        animation: fadeIn 0.5s ease-in;
+    }
+
+    .nav-links li a {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+    /* Hamburger icon */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        width: 28px;
+        height: 22px;
+        position: relative;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: #003366;
+        border-radius: 2px;
+        position: absolute;
+        transition: 0.4s;
+    }
+
+    .hamburger span:nth-child(1) { top: 0; }
+    .hamburger span:nth-child(2) { top: 9px; }
+    .hamburger span:nth-child(3) { top: 18px; }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 9px;
+    }
+
+    /* Profile icons spacing (for contact page) */
+    .profile-icons {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .profile-item {
+        font-size: 16px;
+        padding: 10px 14px;
+        border-radius: 8px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        background: #f5f7fa;
+        transition: 0.3s;
+    }
+
+    .profile-item:hover {
+        background: linear-gradient(90deg, #003366, #0059b3);
+        color: white;
+    }
+
+    .profile-icon {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* Smooth AOS adjustments for mobile */
+@media (max-width: 768px) {
+    [data-aos] {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+    [data-aos].aos-animate {
+        transform: translateY(0);
+        opacity: 1;
+        transition: all 0.9s ease-out;
+    }
+}
+
