@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile scaling -->
     <title>Research | Saranya Biswas</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -11,7 +12,12 @@
 <div class="navbar">
     <div class="nav-inner">
         <div class="nav-name">Saranya Biswas</div>
-        <ul class="nav-links">
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="research.html" class="active">Research</a></li>
@@ -45,8 +51,6 @@
         to characterize noisy mechanical systems and multiscale dynamical processes.</p>
     </div>
 
-    <!-- NEW BLOCKS ADDED BELOW -->
-
     <div class="card" data-aos="fade-up">
         <h3>Climate Dynamics and Stochastic Modelling</h3>
         <p>Exploring nonlinear mechanisms behind climate variability, tipping points, regime shifts, 
@@ -76,6 +80,15 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({ duration: 1000, once: true });
+
+  // Hamburger menu toggle
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+  });
 </script>
+
 </body>
 </html>
