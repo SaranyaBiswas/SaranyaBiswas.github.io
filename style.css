@@ -211,13 +211,6 @@ footer {
     to {opacity:1; transform: translateY(0);}
 }
 
-/* ---------------- Responsive ---------------- */
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-
 /* ---------------- Publication Link Button ---------------- */
 .pub-link {
     background: #135a33;
@@ -232,16 +225,8 @@ footer {
     background: #0f4829;
 }
 
-
-    .hero img {
-        margin-bottom: 20px;
-    }
-}
-
-
-/* ----------- Mobile Polish & Responsive Enhancements ----------- */
+/* ---------------- Responsive & Mobile Polish ---------------- */
 @media (max-width: 768px) {
-
     /* Container adjustments */
     .container {
         width: 92%;
@@ -305,6 +290,7 @@ footer {
         border-radius: 8px;
         padding: 15px;
         box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+        z-index: 1000;
     }
 
     .nav-links.show {
@@ -383,10 +369,8 @@ footer {
         width: 22px;
         height: 22px;
     }
-}
 
-/* Smooth AOS adjustments for mobile */
-@media (max-width: 768px) {
+    /* Smooth AOS adjustments for mobile */
     [data-aos] {
         transform: translateY(15px);
         opacity: 0;
@@ -397,4 +381,3 @@ footer {
         transition: all 0.9s ease-out;
     }
 }
-
