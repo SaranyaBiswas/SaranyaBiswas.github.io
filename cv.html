@@ -1,28 +1,37 @@
+---
+layout: default
+title: Curriculum Vitae
+---
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>CV — Saranya Biswas</title>
+    <meta charset="UTF-8">
+    <title>Curriculum Vitae | Saranya Biswas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="page">
 
-<div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="research.html">Research</a>
-    <a href="publications.html">Publications</a>
-    <a href="teaching.html">Teaching</a>
-    <a href="cv.html">CV</a>
+<div class="container">
+    <h1 class="page-title">Curriculum Vitae</h1>
+
+    <div class="cv-buttons">
+        <a href="/img/resume_sb.pdf" target="_blank" class="download-btn">
+            Download Full CV (PDF)
+        </a>
+    </div>
+
+    <h2 class="section-title">Embedded CV Viewer</h2>
+
+    <div class="cv-frame-container">
+        <iframe
+            src="https://docs.google.com/gview?embedded=true&url=https://saranyabiswas.github.io/img/resume_sb.pdf"
+            class="cv-frame">
+        </iframe>
+    </div>
+
 </div>
-
-<h1>Curriculum Vitae</h1>
-
-<p>
-Download PDF:  
-<a href="img/resume_sb.pdf">resume_sb.pdf</a>
-</p>
-
-<footer>© 2025 · Saranya Biswas</footer>
 
 </body>
 </html>
