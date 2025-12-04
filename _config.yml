@@ -1,30 +1,41 @@
-title: "Dr. Saranya Biswas"
-email: biswas.saranya@gmail.com
-description: "Researcher in Nonlinear & Stochastic Dynamics"
-url: "https://saranyabiswas.github.io"
-theme: null
-
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+title: "Saranya Biswas"
+logo: "/img/dp3333.jpg"
+description: "Assistant Professor · Nonlinear Stochastic Dynamics · IIT Madras (PhD), IIT Kanpur (Postdoc)"
+remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
-  - jekyll-include-cache
-  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-seo-tag
 
-markdown: kramdown
-
-header_pages:
-  - index.md
-  - about.md
-  - research.md
-  - publications.md
-  - teaching.md
-  - contact.md
-
+# Author section
 author:
-  name: "Dr. Saranya Biswas"
-  avatar: "/img/profile.jpg"
-  bio: "Nonlinear & Stochastic Dynamics | IIT Madras | IIT Kanpur"
+  name: "Saranya Biswas"
+  avatar: "/img/dp3333.jpg"
+  bio: "Assistant Professor & Researcher in Nonlinear Stochastic Dynamics."
+  location: "Kolkata, India"
+  links:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com"
+    - label: "GitHub"
+      url: "https://github.com/SaranyaBiswas"
+    - label: "Email"
+      url: "mailto:your_email_here"
 
-sass:
-  style: compressed
+# Theme settings
+theme_settings:
+  skin: "default"
+
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "CV"
+    url: /cv/
