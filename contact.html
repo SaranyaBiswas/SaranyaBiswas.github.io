@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact — Saranya Biswas</title>
+    <meta charset="UTF-8">
+    <title>Contact | Saranya Biswas</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-
 <body>
 
 <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="research.html">Research</a>
-    <a href="publications.html">Publications</a>
-    <a href="teaching.html">Teaching</a>
-    <a href="cv.html">CV</a>
-    <a href="contact.html">Contact</a>
+    <div class="nav-inner">
+        <div class="nav-name">Saranya Biswas</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </div>
 </div>
 
-<h1>Contact</h1>
+<div class="container" data-aos="fade-up">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Email: <a href="mailto:biswas.saranya@gmail.com">biswas.saranya@gmail.com</a></p>
+    <p>Phone: +91 7358458739</p>
+    <p>Location: Kolkata, India</p>
+</div>
 
-<p>You can reach me at:</p>
+<footer>
+    © 2025 Saranya Biswas · All Rights Reserved
+</footer>
 
-<p>
-<strong>Email:</strong> <a href="mailto:biswas.saranya@gmail.com">biswas.saranya@gmail.com</a><br>
-<strong>GitHub:</strong> <a href="https://github.com/SaranyaBiswas">github.com/SaranyaBiswas</a>
-</p>
-
-<p>
-I am open to research collaborations in nonlinear dynamics, stochastic systems, 
-uncertainty quantification, and applied mechanics.
-</p>
-
-<footer>© 2025 · Saranya Biswas</footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
 </body>
 </html>
