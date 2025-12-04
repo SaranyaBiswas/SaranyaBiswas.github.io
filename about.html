@@ -1,54 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About — Saranya Biswas</title>
+    <meta charset="UTF-8">
+    <title>About | Saranya Biswas</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-
 <body>
 
 <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="research.html">Research</a>
-    <a href="publications.html">Publications</a>
-    <a href="teaching.html">Teaching</a>
-    <a href="cv.html">CV</a>
-    <a href="contact.html">Contact</a>
+    <div class="nav-inner">
+        <div class="nav-name">Saranya Biswas</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
 </div>
 
-<h1>About Me</h1>
+<div class="container" data-aos="fade-up">
+    <h2 class="section-title">About Me</h2>
+    <div class="hero">
+        <img src="img/dp.jpeg" alt="Profile Photo">
+        <div class="hero-text">
+            <p>I am Saranya Biswas, a researcher in nonlinear stochastic dynamics. My academic journey started with a B.E. in Mechanical Engineering from Jadavpur University, followed by an MS–PhD in Applied Mechanics from IIT Madras, where I worked on characterization of noisy dynamical systems. I completed my postdoctoral research at IIT Kanpur and currently serve as a Visiting Assistant Professor at Techno India University, Kolkata.</p>
+            <p>My research focuses on stochastic attractors, noise-induced bifurcations, computational dynamics, and stability analysis in nonlinear systems. I am passionate about translating theoretical insights into computational methods for complex systems.</p>
+        </div>
+    </div>
+</div>
 
-<p>
-I am a researcher specializing in <strong>nonlinear stochastic dynamics</strong>, focusing on noisy 
-dynamical systems, stochastic stability, and uncertainty quantification. My research blends 
-numerical simulation, probability theory, and analytical modelling to better understand 
-complex dynamical behaviour under random forcing.
-</p>
+<footer>
+    © 2025 Saranya Biswas · All Rights Reserved
+</footer>
 
-<p>
-I completed my <strong>MS–PhD in Applied Mechanics at IIT Madras</strong>, working on the 
-characterization of stochastic attractors and noise-driven transitions in nonlinear systems. 
-Following this, I worked as a <strong>Project Engineer at IIT Kanpur</strong> under Prof. Anindya Chatterjee, 
-exploring topics in survivability, noise-induced intermittency, and nonlinear vibrations.
-</p>
-
-<p>
-I have experience in teaching undergraduate and postgraduate engineering courses, and I have 
-presented my research at international conferences including PND (IIT Madras), ICoEV (Aberdeen), 
-and CNSD (IIT Kanpur).
-</p>
-
-<h2>Research Themes</h2>
-<ul>
-    <li>Stochastic differential equations</li>
-    <li>Random vibration and uncertainty propagation</li>
-    <li>Basin stability and survivability</li>
-    <li>Noise-induced bifurcations</li>
-    <li>Nonlinear oscillations under random forcing</li>
-</ul>
-
-<footer>© 2025 · Saranya Biswas</footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
 </body>
 </html>
