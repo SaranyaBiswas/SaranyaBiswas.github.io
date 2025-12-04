@@ -1,4 +1,3 @@
-/* --- GLOBAL STYLING --- */
 body {
     font-family: "Inter", sans-serif;
     max-width: 900px;
@@ -14,7 +13,6 @@ h1, h2, h3 {
     font-weight: 600;
     letter-spacing: 0.5px;
     margin-top: 40px;
-    color: #111;
 }
 
 p {
@@ -50,7 +48,6 @@ footer {
     opacity: 0.6;
 }
 
-/* --- HERO PHOTO --- */
 .profile-photo {
     width: 180px;
     height: 180px;
@@ -62,7 +59,6 @@ footer {
     margin: 0 auto 25px auto;
 }
 
-/* --- CARD STYLING --- */
 .card {
     padding: 25px;
     border: 1px solid #e0e0e0;
@@ -72,7 +68,6 @@ footer {
     margin-bottom: 28px;
 }
 
-/* --- RESEARCH/PUBLICATION CARDS --- */
 .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
