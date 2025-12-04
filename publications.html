@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile scaling -->
     <title>Publications | Saranya Biswas</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -11,7 +12,12 @@
 <div class="navbar">
     <div class="nav-inner">
         <div class="nav-name">Saranya Biswas</div>
-        <ul class="nav-links">
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="research.html">Research</a></li>
@@ -28,17 +34,16 @@
     <h2 class="section-title">Selected Publications</h2>
 
     <div class="card" data-aos="fade-up">
-    <h3>S. Biswas, A. Rounak, P. Perlikowski, S. Gupta (2021)</h3>
-    <p>
-        Characterising stochastic fixed points and limit cycles for dynamical systems with additive noise.
-        <em>Commun. Nonlinear Sci. Numer. Simulat.</em>
-    </p>
-    <p>
-        <a href="https://www.sciencedirect.com/science/article/abs/pii/S1007570421001829" 
-           target="_blank" class="pub-link">🔗 Link</a>
-    </p>
-   </div>
-
+        <h3>S. Biswas, A. Rounak, P. Perlikowski, S. Gupta (2021)</h3>
+        <p>
+            Characterising stochastic fixed points and limit cycles for dynamical systems with additive noise.
+            <em>Commun. Nonlinear Sci. Numer. Simulat.</em>
+        </p>
+        <p>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1007570421001829" 
+               target="_blank" class="pub-link">🔗 Link</a>
+        </p>
+    </div>
 
     <div class="card" data-aos="fade-up">
         <h3>S. Biswas, S. Gupta (2023)</h3>
@@ -70,6 +75,15 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({ duration: 1000, once: true });
+
+  // Hamburger menu toggle
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+  });
 </script>
+
 </body>
 </html>
