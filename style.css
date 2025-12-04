@@ -218,6 +218,21 @@ footer {
         text-align: center;
     }
 
+/* ---------------- Publication Link Button ---------------- */
+.pub-link {
+    background: #135a33;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.pub-link:hover {
+    background: #0f4829;
+}
+
+
     .hero img {
         margin-bottom: 20px;
     }
